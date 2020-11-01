@@ -1,6 +1,7 @@
 import React from 'react';
 import {InputLabel} from '@material-ui/core';
 import Logo from './logo.png';
+import Error from './error.png'
 import './Main.css'
 
 const styles={
@@ -91,7 +92,7 @@ class Main extends React.Component {
                 <input type='file' name='file' ref={(ref) => { this.uploadInput = ref; }} onChange={this.handleUploadFile} style={styles.hidden} />
               </InputLabel>
             </form>
-            <img src="https://le-cdn.website-editor.net/2ecb6e5eec61468a9f67b7eac196fa5d/dms3rep/multi/opt/oops-640w.jpg" alt="oops"/>
+            <img src={Error} width="100px" alt="oops"/>
             <h1>Oops! Wrong file format or wrong data in file.</h1>
           </div>
         );
