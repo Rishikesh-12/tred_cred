@@ -1,0 +1,44 @@
+
+.button{
+    padding: 15px;
+    font-size: large;
+    border: 2px solid rgb(55, 184, 55);
+    border-radius: 15px;
+    color: rgb(44, 177, 44);
+    font-family: 'Poppins', sans-serif;
+}
+.button:hover{
+    background-color: rgb(51, 187, 51);
+    color: white;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.data{
+    text-align: left;
+    margin-top: 15px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+p{
+    margin-top: 12px;
+    margin-bottom: 2px;
+    font-family: 'Itim', cursive;
+    font-size: 70px;
+}
+img{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.title1{
+    font-size: 40px;
+}
+.title,.value{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.value{
+    font-weight: bold;
+}
